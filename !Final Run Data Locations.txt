@@ -1,0 +1,52 @@
+Bioclim
+SDM/data/processed/bioclim/
+  bioclim_train_2000_2010.tif
+  bioclim_test_2011_2021.tif
+
+VIF
+SDM/data/processed/vif/
+  vif_selected_vars.rds
+  vif_correlation_matrix.csv
+  vif_results.csv
+  correlation_matrix.png
+  vif_report.txt
+
+ENMeval (05)
+SDM/data/v3/enmeval/
+  enmeval_object.rds
+  occ_swd.csv
+  bg_swd.csv
+  enmeval_results.csv
+  enmeval_results_partitions.csv
+  best_tuning_settings.csv
+  tuning_or10p_cbi.png
+  tuning_aucdiff.png
+  enmeval_report.txt
+
+MaxEnt Final Run (v8_06)
+SDM/data/v8/maxent/
+  maxent_swd_occ.csv
+  maxent_swd_bg.csv
+  maxentResults.csv         ← key results table from MaxEnt jar
+  maxent_stdout.txt
+  maxent_stderr.txt
+  [+ all standard MaxEnt jar outputs: .lambdas, plots, html report]
+
+Evaluation v8b (full AOI, 5km exclusion buffer)
+SDM/data/v8b/evaluation/
+  evaluation_metrics.csv
+  evaluation_report.txt
+  roc_curve.png
+  jackknife_test_auc.csv
+  jackknife_test_auc.png
+
+Evaluation v8c (TN only, 50km ecological buffer)
+SDM/data/v8c/evaluation/
+  evaluation_metrics.csv
+  evaluation_report.txt
+  roc_curve.png
+  jackknife_test_auc.csv
+  jackknife_test_auc.png
+
+
+

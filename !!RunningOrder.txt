@@ -1,0 +1,19 @@
+1.  01_occurrence_processing_final.R
+1b. 01b_train_test_with_year.R
+1c. (optional) 01c_occurrencechecker.R
+
+2.  03_bioclim_computation.R
+2b. (optional) 02b_bioclim_tester.R
+
+3.  03_VIF_predictor_selection.R
+3b. 03b_bias_surface.Re.R ( training bias surface )
+3c. 03c_process_test_background.R ( testing bias surface by both 07b/07c )
+
+4. 04_ENMeval_tuning.R 
+
+5. 05_maxent_final_run.R ( Training AOI )
+
+6. 06_evaluation.R ( Testing AOI -> Should have AUC 0.8 )
+   06_evaluation_TN_Buffer.R ( Training TN + 50km buffer ( 60km total coast ) -> Should have AUC 0.76 )
+
+------------------------------------------------------------------------------
